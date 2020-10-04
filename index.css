@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #63458A;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px #E4B7E5;
+}
+
+
+/* navbar */
+
+
+.navbar {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+  }
+
+
+
+/* article styling */
+
+#container {
+    
+}
+
+
+.articleParagraph {
+    background-color: #9A48D0;
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: content-box;
+        border-radius: 10px;
+}
+
+.articleCard1 {
+    background-color: cornflowerblue;
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: content-box;
+        border-radius: 10px;
+}
+
+
+/* footer */
+
+footer {
+    color:#e4b7e5;
+    
+}
