@@ -4,9 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Kanit', sans-serif;
-  font-family: 'Roboto Mono', monospace;
   background-color: #63458A;
+
 }
 
 h1 {
@@ -15,8 +14,12 @@ h1 {
     align-items: center;
     font-size: 50px;
     text-shadow: 2px 2px #E4B7E5;
-}
+    font-family: 'Righteous', cursive;}
 
+body {
+    font-family: 'Roboto Mono', monospace;
+
+}
 
 /* navbar */
 
