@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #63458A;
+  background-color: #362b70;
 
 }
 
@@ -12,13 +12,17 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 55px;
     text-shadow: 2px 2px #E4B7E5;
-    font-family: 'Righteous', cursive;}
+    font-family: 'Righteous', cursive;
+    color: #0280db;
+
+
+}
 
 body {
-    font-family: 'Roboto Mono', monospace;
 
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* navbar */
@@ -30,40 +34,74 @@ body {
 }
 
 li {
-    display: inline;
+display: inline-flex;  
+ 
+color: #b610cb;
+    
+
   }
 
 
 
 /* article styling */
 
+
+/* This container is the parent */
 #container {
-    
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    flex-shrink: unset;
+	align-items: center;
+	justify-content: center;
 }
 
+.articleImg {
+    width: 400px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.articleTitle {
+color: #00f0f3;
+
+}
 
 .articleParagraph {
     background-color: #9A48D0;
-    display: flex;
     max-width: 500px;
-    justify-content: center;
-    align-items: center;
-        margin: 0 auto;
         padding: 0 20px;
+        padding-bottom: 20px;
+        padding-top: 5px;
+        margin-top: 5px;
         box-sizing: content-box;
         border-radius: 10px;
 }
 
 .articleCard1 {
-    background-color: cornflowerblue;
-    display: flex;
-    max-width: 500px;
-    justify-content: center;
-    align-items: center;
+    background-color:#1289e1;
+    max-width: 400px;
         margin: 0 auto;
         padding: 0 20px;
+        padding-bottom: 10px;
         box-sizing: content-box;
         border-radius: 10px;
+        /* box-shadow: 0 35px 40px -1px rgba(66, 0, 219, 0.4); */
+        box-shadow: 0 25px 40px -1px rgba(138, 41, 157, 0.7);
+
+}
+
+.articleCard2 {
+    background-color:#1289e1;
+    max-width: 400px;
+        margin: 0 auto;
+        padding: 0 20px;
+        padding-bottom: 10px;
+        box-sizing: content-box;
+        border-radius: 10px;
+        /* box-shadow: 0 35px 40px -1px rgba(66, 0, 219, 0.4); */
+        box-shadow: 0 25px 40px -1px rgba(138, 41, 157, 0.7);
+
 }
 
 
